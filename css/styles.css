@@ -221,10 +221,10 @@ nav a:focus{
     }
 
     .home-about{
-        background-image: url();
+        background-image: url(../img/aboutme-01.jpg);
     }
     .home-about-textbox{
-        width: 100vw;
+        width: 40%;
         margin-left:-2.5%;
     }
     
