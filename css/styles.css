@@ -15,7 +15,7 @@ body{
 =================== */
 
 header{
-    /*position: absolute;*/
+    position: absolute;
     margin-top: 1em;
 }
 
@@ -45,4 +45,5 @@ nav a{
 
 .home-hero{
     background-image: url(../img/top-bg.jpg);
+    padding: 10em 0;
 }
