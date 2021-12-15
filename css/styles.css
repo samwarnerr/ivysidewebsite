@@ -34,9 +34,17 @@ img{
 /* typography
 =================== */
 
+h1{
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin-top: 0;
+}
+
 .title{
 font-size: 2rem;
 margin-bottom: 1.5em;
+font-weight: 900;
+margin-top: 1em;
 }
 
 .title-span{
@@ -186,18 +194,45 @@ nav a:focus{
 /* home-about
 ============== */
 
-.home-about {
-    background: #7EBC89;
-    background-size: cover;
-    padding-top: 0;
-
+.home-about-textbox{
+    background-color: #2f1000;
+    padding: 3em;
+    width: 100vw;
+    margin-left:-2.5%;
+    outline: 2px solid #7EBC89;
+    outline-offset: -2.5em;
+    color: #FFF;
+    position: relative;
 }
 
-.home-about h1 {
-    color: #243E36;
+.home-about-textbox h1{
+    color:#7EBC89;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: .75em;
+    background: #2f1000;
+    padding: 0 .145em;
+}
+
+@media (min-width:25rem){
+    h1{
+        font-size: 2rem;
+    }
     
+    .home-about-textbox h1{
+        top: .6em;
+        padding: 0 .325em;
+    }
 }
 
-.home-about p {
-    color: white;
+@media (min-width:60rem){
+    h1{
+        font-size: 2.5rem;
+    }
+    
+    .home-about-textbox h1{
+        top: .3em;
+        padding: 0 .6em;
+    }
 }
