@@ -169,6 +169,7 @@ nav a:focus{
     background-size: cover;
     background-position: center;
     padding: 10em 0;
+    padding-bottom: 0;
     color:#FFF;
 }
 
@@ -176,7 +177,27 @@ nav a:focus{
     .home-hero{
         height: 100vh;
         padding-top:35vh;
+        
     }
 
 
+}
+
+/* home-about
+============== */
+
+.home-about {
+    background: #7EBC89;
+    background-size: cover;
+    padding-top: 0;
+
+}
+
+.home-about h1 {
+    color: #243E36;
+    
+}
+
+.home-about p {
+    color: white;
 }
