@@ -222,15 +222,16 @@ nav a:focus{
 
     .home-about{
         background-image: url(../img/aboutme-01.jpg);
+        background-repeat: no-repeat;
+        padding:5em;
     }
     .home-about-textbox{
-        width: 40%;
+        width: 60%;
         margin-left:-2.5%;
     }
     
     .home-about-textbox h1{
         top: .6em;
-        padding: 0 .325em;
     }
 }
 
