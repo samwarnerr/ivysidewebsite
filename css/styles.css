@@ -11,6 +11,10 @@ body{
     text-align: center;
 }
 
+img{
+    max-width: 100%;
+    height:auto;
+}
 /* header
 =================== */
 
@@ -38,6 +42,12 @@ nav a{
     text-transform: uppercase;
     font-size: .8rem;
     padding: 0.5em;
+    color: #FFF;
+}
+
+nav a:hover,
+nav a:focus{
+    color:darkgrey;
 }
 
 
