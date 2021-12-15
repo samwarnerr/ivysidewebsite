@@ -65,11 +65,13 @@ h1{
 }
 
 .title-area p {
+    font-family: 'Grifter', sans-serif;
     text-align: right;
     font-size: 1em;
     color: white;
     margin-top: 0;
     padding-left: 70%;
+    letter-spacing: 1px;
 
 }
 
