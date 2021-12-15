@@ -195,7 +195,7 @@ nav a:focus{
 ============== */
 
 .home-about-textbox{
-    background-color: #2f1000;
+    background-color: #000;
     padding: 3em;
     width: 100vw;
     margin-left:-2.5%;
@@ -211,7 +211,7 @@ nav a:focus{
     left: 50%;
     transform: translateX(-50%);
     top: .75em;
-    background: #2f1000;
+    background: #000;
     padding: 0 .145em;
 }
 
