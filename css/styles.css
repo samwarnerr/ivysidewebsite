@@ -49,7 +49,14 @@ margin-bottom: 1.5em;
 }
 
 .button-accent{
-    color:#18453b;
+    color:#243e36;
+    border-color: #243e36;
+}
+
+.button-accent:hover,
+.button-accent:focus{
+    background: #243e36;
+    color: #784f41;
 }
 
 /* header
