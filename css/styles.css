@@ -219,6 +219,14 @@ nav a:focus{
     h1{
         font-size: 2rem;
     }
+
+    .home-about{
+        background-image: url();
+    }
+    .home-about-textbox{
+        width: 100vw;
+        margin-left:-2.5%;
+    }
     
     .home-about-textbox h1{
         top: .6em;
