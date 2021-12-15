@@ -65,7 +65,7 @@ margin-bottom: 1.5em;
 }
 
 .button-accent{
-    font-family: 'Helv', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color:#7EBC89;
     border-color: #7EBC89;
 }
@@ -102,10 +102,11 @@ nav ul{
 nav li{
     display: inline-block;
     margin: 1em;
-    font-family: 'Helv', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav a{
+    font-family: 'Raleway', sans-serif;
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
@@ -120,7 +121,7 @@ nav a:focus{
     color:darkgrey;
 }
 
-@media (min-width:60rem){
+@media (min-width:500px){
     .logo{
         float:left;
         max-width: 10rem;
