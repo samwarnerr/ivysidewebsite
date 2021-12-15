@@ -29,6 +29,7 @@ img{
 .container{
     width:95%;
     margin: 0 auto;
+    max-width: 70em;
 }
 
 /* typography
@@ -219,29 +220,36 @@ nav a:focus{
     h1{
         font-size: 2rem;
     }
-
-    .home-about{
-        background-image: url(../img/aboutme-01.jpg);
-        background-repeat: no-repeat;
-        padding:5em;
-    }
-    .home-about-textbox{
-        width: 60%;
-        margin-left:-2.5%;
-    }
-    
     .home-about-textbox h1{
         top: .6em;
+        padding: 0 .325em;
+        transform:translateX(0);
+
     }
 }
-
 @media (min-width:60rem){
     h1{
         font-size: 2.5rem;
     }
     
+    .home-about{
+        background-image: url(../img/aboutme-01.jpg);
+        background-repeat: no-repeat;
+        padding-bottom:10em;
+    }
+    .home-about-textbox{
+        width: 50%;
+        padding:7em;
+        outline-offset: -3.75em;
+        margin-left:-2.5%;
+        top: -5em;
+        text-align: left;
+        box-shadow: 0 0 4em 0 rgba(0,0,0,.3)
+    }
+    
     .home-about-textbox h1{
-        top: .3em;
-        padding: 0 .6em;
+        top: .75em;
+        left: 6rem;
+        transform:translateX(0);
     }
 }
