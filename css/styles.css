@@ -279,11 +279,13 @@ nav a:focus{
     }
 
     .home-about{
+        display: block;
         background-image: url(../img/aboutme-01.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         padding-bottom:10em;
         object-fit: scale-down;
+        margin-bottom: 0;
     }
     .home-about-textbox{
         width: 50%;
@@ -313,9 +315,16 @@ nav a:focus{
 /* portfolio
 =======================*/
 
+.port-title {
+    background-color: #EBBE9B;
+    padding: 3em 0;
+}
 
-.portfolio{
-    margin: 3em 0 0;
+.portfolio h1 {
+    background-color: #7EBC89;
+    margin: 0;
+    padding: 1em 0;
+    color: #243E36;
 }
 
 .port-item{
@@ -363,6 +372,10 @@ nav a:focus{
 
     }
 }
+
+
+
+
 
 /* CTA
 =======================*/
