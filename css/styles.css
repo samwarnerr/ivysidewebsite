@@ -264,6 +264,12 @@ nav a:focus{
         text-align: left;
         box-shadow: 0 0 4em 0 rgba(0,0,0,.3)
     }
+
+    .home-about-textbox p {
+        font-family: 'Grifter', sans-serif;
+        letter-spacing: .8px;
+
+    }
     
     .home-about-textbox h1{
         top: .75em;
