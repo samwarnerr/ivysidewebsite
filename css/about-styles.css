@@ -9,7 +9,6 @@
     src: url(grifterbold.otf);
 }
 
-color
 *{
     box-sizing: border-box;
     background: #243E36;
@@ -18,6 +17,7 @@ color
 body{
     margin:0;
     font-family: 'Losta', sans-serif;
+    background-color: #243E36;
 }
 
 img{
