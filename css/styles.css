@@ -297,7 +297,7 @@ nav a:focus{
 
 
 .portfolio{
-    margin:3em 0 0;
+    margin: 3em 0 0;
 }
 
 .port-item{
@@ -351,4 +351,6 @@ nav a:focus{
 
 .cta{
     background-color: #7EBC89;
+    padding: 3em 0;
+    
 }
