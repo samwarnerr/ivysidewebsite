@@ -72,6 +72,10 @@ margin-top: 1em;
 
 }
 
+title-cta{
+    margin: 0 0 .5em;
+}
+
 @media (min-width:60rem){
     .title{
         font-size: 3.7rem;
@@ -365,6 +369,6 @@ nav a:focus{
 
 .cta{
     background-color: #7EBC89;
-    padding: 3em 0;
+    padding: 5em 0;
     color:#FFF;
 }
