@@ -117,6 +117,20 @@ margin-top: 1em;
     color: #fff;
 }
 
+.button-light{
+    font-family: 'Grifter', sans-serif;
+    color:#FFF;
+    border-color: #FFF;
+    
+    
+}
+
+.button-light:hover,
+.button-light:focus{
+    background: #FFF;
+    color: #7EBC89;
+}
+
 /* header
 =================== */
 
