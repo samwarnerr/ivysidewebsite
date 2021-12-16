@@ -84,6 +84,17 @@ margin-top: 1em;
     letter-spacing: 1px;
     
 }
+@media (min-width:60rem) {
+    .button{
+        font-size: 1.5rem;
+    }
+}
+
+
+.button-small{
+    font-size: .7rem;
+    font-weight: 700;
+}
 
 .button-accent{
     font-family: 'Grifter', sans-serif;
@@ -97,12 +108,6 @@ margin-top: 1em;
 .button-accent:focus{
     background: #7EBC89;
     color: #fff;
-}
-
-@media (min-width:60rem) {
-    .button{
-        font-size: 1.5rem;
-    }
 }
 
 /* header
@@ -276,4 +281,13 @@ nav a:focus{
         left: 6rem;
         transform:translateX(0);
     }
+}
+
+
+
+/* portfolio
+=======================*/
+
+figure{
+    margin:0;
 }
