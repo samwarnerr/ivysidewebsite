@@ -205,11 +205,11 @@ nav a:focus{
 ============== */
 
 .home-about-textbox{
-    background-color: #000;
+    background-color: #243e36;
     padding: 3em;
     width: 100vw;
     margin-left:-2.5%;
-    outline: 2px solid #7EBC89;
+    outline: 2px solid #243e36;
     outline-offset: -2.5em;
     color: #FFF;
     position: relative;
@@ -221,7 +221,7 @@ nav a:focus{
     left: 50%;
     transform: translateX(-50%);
     top: .75em;
-    background: #000;
+    background: #243e36;
     padding: 0 .145em;
 }
 
