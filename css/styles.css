@@ -428,8 +428,28 @@ nav a:focus{
 
 .cta{
     background-color: #7EBC89;
-    padding: 5em 0;
+    padding: 1em 0;
     color:#FFF;
+}
+
+.title-cta {
+    float: left;
+    text-align: left;
+    margin-bottom: -1.5rem;
+    font-size: 5rem;
+}
+
+.container-cta {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 3rem;
+    float: left;
+    text-align: left;
+}
+
+.cta .button-light {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 /* footer
