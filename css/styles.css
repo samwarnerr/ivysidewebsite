@@ -49,6 +49,13 @@ footer::after{
     float: left;
 }
 
+.col-3{
+    width:50%;
+}
+
+.col-1{
+    width:16.6666%;
+}
 
 /* typography
 =================== */
