@@ -95,7 +95,7 @@ margin-top: 1em;
 .button-accent:hover,
 .button-accent:focus{
     background: #7EBC89;
-    color: #784f41;
+    color: #fff;
 }
 
 @media (min-width:60rem) {
@@ -155,7 +155,7 @@ nav a:focus{
 @media (max-width:500px) {
     .button-accent{
         font-family: 'Grifter', sans-serif;
-        color:#784f41;
+        color: #fff;;
         border-color: #7EBC89;
         background: #7EBC89;
     }
