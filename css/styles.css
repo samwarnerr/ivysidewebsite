@@ -433,6 +433,7 @@ nav a:focus{
 }
 
 .title-cta {
+    margin-top: 2rem;
     float: left;
     text-align: left;
     margin-bottom: -1.5rem;
