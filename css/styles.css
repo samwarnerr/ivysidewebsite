@@ -34,6 +34,12 @@ img{
     max-width: 70em;
 }
 
+.clearfix::after,
+section::after{
+    content: '';
+    display:block;
+    clear:both;
+}
 /* typography
 =================== */
 
