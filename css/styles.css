@@ -373,10 +373,6 @@ nav a:focus{
     }
 }
 
-
-
-
-
 /* CTA
 =======================*/
 
@@ -384,4 +380,12 @@ nav a:focus{
     background-color: #7EBC89;
     padding: 5em 0;
     color:#FFF;
+}
+
+/* footer
+=======================*/
+
+footer{
+    background: #243e36;
+    color: #FFF;
 }
