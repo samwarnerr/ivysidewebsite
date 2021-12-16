@@ -339,3 +339,10 @@ nav a:focus{
 
     }
 }
+
+/* CTA
+=======================*/
+
+.cta{
+    background-color: #7EBC89;
+}
