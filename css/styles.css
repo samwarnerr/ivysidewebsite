@@ -24,6 +24,7 @@ body{
 img{
     max-width: 100%;
     height:auto;
+    object-fit: cover;
 }
 
 .container{
@@ -194,7 +195,7 @@ nav a:focus{
 @media(min-width:60rem){
     .home-hero{
         height: 100vh;
-        padding-top:35vh;
+        padding-top:20vh;
         
     }
 
@@ -250,7 +251,9 @@ nav a:focus{
     .home-about{
         background-image: url(../img/aboutme-01.jpg);
         background-repeat: no-repeat;
+        background-size: cover;
         padding-bottom:10em;
+        object-fit: scale-down;
     }
     .home-about-textbox{
         width: 50%;
