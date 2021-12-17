@@ -1,0 +1,14 @@
+@font-face{
+    font-family: Losta;
+    src: url(LostaMasta-Bold.otf);
+}
+
+@font-face {
+    font-family: Grifter;
+    src: url(grifterbold.otf);
+}
+
+*{
+    box-sizing: border-box;
+    background: #EBBE9B;
+}
