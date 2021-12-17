@@ -11,7 +11,9 @@
 *{
     box-sizing: border-box;
 }
-
+body{
+    background: #ebbe9b;
+}
 .container{
     width:80%;
     margin: 50px auto;
