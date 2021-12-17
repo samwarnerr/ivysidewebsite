@@ -42,6 +42,24 @@ nav li{
     float: center;
     padding: .5em;
 }
+
+@media (min-width:500px){
+    .logo{
+        float:left;
+        max-width: 10rem;
+    }
+
+    .nav{
+        float:right;
+        
+    }
+
+    nav ul {
+        float: right;
+    }
+
+}
+
 .container{
     width:80%;
     margin: 50px auto;
