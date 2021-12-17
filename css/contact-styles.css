@@ -63,3 +63,11 @@ input{
     outline: none;
     padding-bottom: 5px;
 }
+
+textarea{
+    width:100%;
+    border: 1px solid #784f41;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
