@@ -35,3 +35,11 @@ body{
     background: #784f41;
     color:#fff;
 }
+
+h1{
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-bottom: 40px;
+}
