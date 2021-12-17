@@ -64,6 +64,33 @@ nav a:focus{
     padding: .5em;
 }
 
+@media (max-width:500px) {
+    .button-accent{
+        font-family: 'Grifter', sans-serif;
+        color: #fff;;
+        border-color: #7EBC89;
+        background: #7EBC89;
+    }
+
+    
+}
+@media (min-width:500px){
+    .logo{
+        float:left;
+        max-width: 10rem;
+    }
+
+    .nav{
+        float:right;
+        
+    }
+
+    nav ul {
+        float: right;
+    }
+
+}
+
 
 /*form
 
