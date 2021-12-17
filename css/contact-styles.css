@@ -44,3 +44,22 @@ h1{
 .container p{
     margin-bottom: 40px;
 }
+
+.input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width:100%;
+    border: none;
+    border-bottom: 1px solid #784f41;
+    outline: none;
+    padding-bottom: 5px;
+}
