@@ -15,15 +15,7 @@ body{
     background: #ebbe9b;
     font-family: 'Grifter', sans-serif;
 }
-img{
-    max-width: 100%;
-    height:auto;
-}
 
-.container{
-    width:95%;
-    margin: 0 auto;
-}
 /* header
 =================== */
 
@@ -73,20 +65,12 @@ nav a:focus{
     padding: .5em;
 }
 
-@media (max-width:500px) {
-    .button-accent{
-        font-family: 'Grifter', sans-serif;
-        color: #fff;;
-        border-color: #7EBC89;
-        background: #7EBC89;
-    }
 
-    
-}
 @media (min-width:500px){
     .logo{
         float:left;
         max-width: 10rem;
+        padding-top: 0;
     }
 
     .nav{
