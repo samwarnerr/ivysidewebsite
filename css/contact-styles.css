@@ -15,6 +15,9 @@ body{
     background: #ebbe9b;
     font-family: 'Grifter', sans-serif;
 }
+/* header
+=================== */
+
 header{
     position: absolute;
     right:0;
@@ -33,6 +36,24 @@ nav li{
     display: inline-block;
     margin: 1em;
 }
+
+nav a{
+    font-family: 'Grifter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: 0.5em;
+    color: #FFF;
+    float: center;
+}
+
+nav a:hover,
+nav a:focus{
+    color:darkgrey;
+}
+
 .logo {
     max-width: 7rem;
     float: center;
@@ -43,23 +64,10 @@ nav li{
     padding: .5em;
 }
 
-@media (min-width:500px){
-    .logo{
-        float:left;
-        max-width: 10rem;
-    }
 
-    .nav{
-        float:right;
-        
-    }
+/*form
 
-    nav ul {
-        float: right;
-    }
-
-}
-
+=================*/
 .container{
     width:80%;
     margin: 50px auto;
