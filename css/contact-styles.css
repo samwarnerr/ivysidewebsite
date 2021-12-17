@@ -15,7 +15,24 @@ body{
     background: #ebbe9b;
     font-family: 'Grifter', sans-serif;
 }
+header{
+    position: absolute;
+    right:0;
+    left:0;
+    margin: 1em;
+}
 
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: center;
+}
+
+nav li{
+    display: inline-block;
+    margin: 1em;
+}
 .logo {
     max-width: 7rem;
     float: center;
