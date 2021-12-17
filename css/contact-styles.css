@@ -15,9 +15,15 @@ body{
     background: #ebbe9b;
     font-family: 'Grifter', sans-serif;
 }
-img{
-    max-width: 100%;
-    height:auto;
+
+.logo {
+    max-width: 7rem;
+    float: center;
+}
+
+.nav {
+    float: center;
+    padding: .5em;
 }
 .container{
     width:80%;
