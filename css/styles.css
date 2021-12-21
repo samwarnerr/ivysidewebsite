@@ -223,7 +223,11 @@ nav a:hover,
 nav a:focus{
     color:darkgrey;
 }
-
+.unstyled-list a{
+    font-family: 'Grifter', sans-serif;
+    text-decoration: none;
+    color: #FFF;
+}
 .unstyled-list a:hover,
 .unstyled-list a:focus{
     color:#A9A9A9;
