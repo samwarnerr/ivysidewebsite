@@ -19,11 +19,13 @@ body{
 /* header
 =================== */
 
+
 header{
     position: absolute;
     right:0;
     left:0;
     margin: 1em;
+    margin-top: .5em;
 }
 
 nav ul{
@@ -64,13 +66,20 @@ nav a:focus{
     float: center;
     padding: .5em;
 }
+@media (max-width:500px) {
+    .button-accent{
+        font-family: 'Grifter', sans-serif;
+        color:#784f41;
+        border-color: #7EBC89;
+        background: #7EBC89;
+    }
 
-
+    
+}
 @media (min-width:500px){
     .logo{
         float:left;
         max-width: 10rem;
-        padding-top: 0;
     }
 
     .nav{
@@ -84,13 +93,15 @@ nav a:focus{
 
 }
 
-
 /*form
 
 =================*/
 .container{
+    margin: 0;
+    margin-top: 0;
+    padding-top: 10em;
     width:80%;
-    margin: 50px auto;
+    margin: 0 auto;
 }
 
 .contact-box{
