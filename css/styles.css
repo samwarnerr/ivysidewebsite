@@ -224,6 +224,10 @@ nav a:focus{
     color:darkgrey;
 }
 
+.unstyled-list a:hover,
+.unstyled-list a:focus{
+    color:#A9A9A9;
+}
 .logo {
     max-width: 7rem;
     float: center;
