@@ -470,3 +470,8 @@ footer{
     text-align: left;
     padding: 5em 0;
 }
+
+.col-3 p {
+    font-family: Grifter;
+    font-size: 1em;
+}
