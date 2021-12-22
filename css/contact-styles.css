@@ -28,6 +28,14 @@ header{
     margin-top: .5em;
 }
 
+h1{
+    color: #243E36;
+}
+
+p{
+    color: #243E36;
+}
+
 nav ul{
     margin: 0;
     padding: 0;
