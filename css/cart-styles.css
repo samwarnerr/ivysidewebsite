@@ -1,0 +1,12 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Raleway:300,400,700,900');
+
+@font-face {
+    font-family: Losta;
+    src: url(LostaMasta-Bold.otf);
+}
+
+@font-face {
+    font-family: Grifter;
+    src: url(grifterbold.otf);
+}
