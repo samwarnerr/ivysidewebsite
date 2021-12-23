@@ -234,7 +234,6 @@ nav a:focus{
 }
 .iconsdiv {
     align-items: right;
-    margin-right: -6.75rem;
     padding-left: 1rem;
 }
 .iconsdiv a {
@@ -242,8 +241,7 @@ nav a:focus{
 }
 .navbar {
     display: flex;
-    padding-left: 0rem;
-    padding-right: 6rem;
+    padding-left: 0rem; 
     align-items: center;
     height: 5rem;
 }
