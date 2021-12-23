@@ -1,0 +1,37 @@
+@import url("https://use.typekit.net/lib5vqm.css");
+
+@font-face {
+    font-family: Losta;
+    src: url(LostaMasta-Bold.otf);
+}
+
+@font-face {
+    font-family: Grifter;
+    src: url(grifterbold.otf);
+}
+
+:root {
+    --msugreen: #243E36;
+    --peach: #EBBE9B;
+    --bole: #784F41;
+    --bean: #2F1000;
+    --seagreen: #7EBC89;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--peach);
+    font-family: 'Grifter', sans-serif;
+}
+section {
+    position: relative;
+    min-height: 100vh;
+    background: var(--peach);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: 0.5s;
+}

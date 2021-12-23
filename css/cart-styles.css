@@ -13,12 +13,17 @@ url('https://fonts.googleapis.com/css2?family=Raleway:300,400,700,900');
 /* header
 =================== */
 
+* {
+    padding: 0;
+    margin: 0;
+}
 header{
     position: absolute;
     right:0;
     left:0;
-    margin: 1em;
+    
 }
+
 
 nav ul{
     margin: 0;
@@ -59,7 +64,6 @@ nav a:focus{
 }
 .iconsdiv {
     align-items: right;
-    padding-left: 1rem;
 }
 .iconsdiv a {
     margin: 4px;
@@ -92,7 +96,7 @@ a {
     text-transform: uppercase;
 }
 .container1 {
-    margin-right: 0;
+    margin-left: 0;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -125,6 +129,9 @@ a {
 
 .container1{
     background-color: #7EBC89;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
 }
 
 /*cart items
@@ -141,4 +148,9 @@ a {
 
 .cart-info{
     
+}
+
+.small-container {
+    display: inline-block;
+    padding-top: 3rem;
 }
