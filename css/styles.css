@@ -232,16 +232,6 @@ nav a:focus{
 .unstyled-list a:focus{
     color:#A9A9A9;
 }
-.logo {
-    max-width: 7rem;
-    float: center;
-}
-
-.nav {
-    float: center;
-    padding: .5em;
-}
-
 .iconsdiv {
     align-items: right;
     margin-right: -6.75rem;
@@ -250,7 +240,39 @@ nav a:focus{
 .iconsdiv a {
     margin: 4px;
 }
-
+.navbar {
+    display: flex;
+    padding-left: 0rem;
+    padding-right: 6rem;
+    align-items: center;
+    height: 5rem;
+}
+nav {
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+.container1 {
+    margin-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 @media (max-width:500px) {
     .button-accent{
         font-family: 'Grifter', sans-serif;
