@@ -20,20 +20,14 @@ body{
 =================== */
 
 
+/* header
+=================== */
+
 header{
     position: absolute;
     right:0;
     left:0;
     margin: 1em;
-    margin-top: .5em;
-}
-
-h1{
-    color: #243E36;
-}
-
-p{
-    color: #243E36;
 }
 
 nav ul{
@@ -64,20 +58,58 @@ nav a:hover,
 nav a:focus{
     color:darkgrey;
 }
-
-.logo {
-    max-width: 7rem;
-    float: center;
+.unstyled-list a{
+    font-family: 'Losta', sans-serif;
+    text-decoration: none;
+    color: #FFF;
 }
-
-.nav {
-    float: center;
-    padding: .5em;
+.unstyled-list a:hover,
+.unstyled-list a:focus{
+    color:#A9A9A9;
+}
+.iconsdiv {
+    align-items: right;
+    padding-left: 1rem;
+}
+.iconsdiv a {
+    margin: 4px;
+}
+.navbar {
+    display: flex;
+    padding-left: 0rem; 
+    align-items: center;
+    height: 5rem;
+}
+nav {
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+.container1 {
+    margin-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 @media (max-width:500px) {
     .button-accent{
         font-family: 'Grifter', sans-serif;
-        color:#784f41;
+        color: #fff;;
         border-color: #7EBC89;
         background: #7EBC89;
     }
