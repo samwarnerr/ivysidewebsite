@@ -241,6 +241,16 @@ nav a:focus{
     float: center;
     padding: .5em;
 }
+
+.iconsdiv {
+    align-items: right;
+    margin-right: -6.75rem;
+    padding-left: 1rem;
+}
+.iconsdiv a {
+    margin: 4px;
+}
+
 @media (max-width:500px) {
     .button-accent{
         font-family: 'Grifter', sans-serif;
