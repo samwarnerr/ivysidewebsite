@@ -17,6 +17,7 @@ url('https://fonts.googleapis.com/css2?family=Raleway:300,400,700,900');
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 header{
     position: absolute;
@@ -129,59 +130,189 @@ a {
 }
 
 .container1{
-    background-color: #7EBC89;
+    background-color: #243e36;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: .5rem;
 }
 
+.navbar{
+    margin-bottom: 10rem;
+}
+
+
+/*button
+=================== */
+
+.button{
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 4px;
+    border-style: solid;
+    padding: .75em 1.75em;
+    letter-spacing: 1px;
+    
+}
+@media (min-width:60rem) {
+    .button{
+        font-size: 1.5rem;
+    }
+}
+
+
+.button-small{
+    font-size: .7rem;
+    font-weight: 700;
+}
+
+.button-accent{
+    font-family: 'Grifter', sans-serif;
+    background: #243e36;
+    border-color: #243e36;
+    color: black;
+}
+
+.button-accent:hover,
+.button-accent:focus{
+    background: #7EBC89;
+    border-color: #7EBC89
+}
+
+.button-light{
+    font-family: 'Grifter', sans-serif;
+    color:#FFF;
+    border-color: #FFF;
+    
+    
+}
+
+.button-light:hover,
+.button-light:focus{
+    background: #FFF;
+    color: #7EBC89;
+}
 
 /*cart items
 =================== */
 
-.cart-page{
-    margin: 80px auto;
-    display: inline-block;
-    padding-top: 5rem;
-    width: 100%;
+.cart-title{
+    padding-top: 8rem;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Grifter',sans-serif;
+}
+
+.cart-items{
+    padding-top: 2rem;
+    width:90%;
+    margin:auto;
 }
 
 table{
-    width: 50%;
+    width: 100%;
     border-collapse: collapse;
 }
 
-.cart-info{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 th{
-    text-align: left;
-    padding: 5px;
-    color: #FFF;
-    background: #7EBC89;
-    font-weight: normal;
-
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: 'Grifter',sans-serif;
+    border-bottom: 1px solid #243e36;
 }
 
 td{
-    padding: 10px 5px;
+    width: 20%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family:'Grifter',sans-serif;
+    color: #243e36;
+    border-bottom: 1px solid #243e36;
+}
+input{
+    font-family: 'Grifter',sans-serif;
+    text-align: center;
+    width:35px;
+    outline:none;
+    border: 2px solid #243e36;
 }
 
-td input{
-    width: 40px;
-    height: 30px;
-    padding: 5px;
+table img{
+    max-width: 125px;
+    max-height: 125px;
+
+}
+/* column system
+=================== */
+.unstyled-list{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
 }
 
-td a{
-    color:#7EBC89;
-    font-size: 12px;
+.container{
+    width:100%;
+    margin: 0 auto;
+    max-width: 70em;
 }
 
-td img{
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
+.clearfix::after,
+section::after,
+footer::after{
+    content: '';
+    display:block;
+    clear:both;
+}
+
+[class^=col-]{
+    width: 100%;
+    margin-top: 1em;
+}
+
+[class^=col-]:first-child{
+    margin-top: 0;
+}
+
+.col-1{
+    width: 33.333334%;
+    float: left;
+}
+
+@media (min-width:40rem){
+    [class^=col-]{
+    float: left;
+    padding: 0 .5em;
+    margin-top: 0;
+    }
+
+    [class^=col-]:first-child{
+        padding-left: 0;
+    }
+    
+    [class^=col-]:last-child{
+        padding-right: 0;
+    }
+
+    .col-3{
+        width:50%;
+    }
+
+    .col-1{
+        width:16.6666%;
+    }   
+}
+/* footer
+=======================*/
+footer{
+    background: #243e36;
+    color: #FFF;
+    text-align: left;
+    padding: 6em 0;
+}
+
+.col-3 p {
+    font-family: Grifter;
+    font-size: 1em;
 }
